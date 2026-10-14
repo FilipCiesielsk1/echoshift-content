@@ -1,0 +1,222 @@
+{
+	"bounds": [
+		0.0,
+		340.0,
+		720.0,
+		728.0
+	],
+	"content_version": 1,
+	"echo_target": 1,
+	"id": "remote_v2_test_02",
+	"initial_phase": 0,
+	"links": [
+		{
+			"from": "plates_memory_plate",
+			"to": "access_door"
+		}
+	],
+	"objects": [
+		{
+			"id": "access_door",
+			"position": [
+				360.0,
+				900.0
+			],
+			"properties": {
+				"length": 160.0,
+				"orientation": "vertical"
+			},
+			"rotation": 0.0,
+			"type": "door",
+			"type_version": 1
+		},
+		{
+			"id": "recording_wall_b",
+			"position": [
+				186.0,
+				650.0
+			],
+			"properties": {
+				"phase_group": 1,
+				"size": [
+					324.0,
+					24.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "phase_wall",
+			"type_version": 1
+		},
+		{
+			"id": "exit_wall_a",
+			"position": [
+				534.0,
+				650.0
+			],
+			"properties": {
+				"phase_group": 0,
+				"size": [
+					324.0,
+					24.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "phase_wall",
+			"type_version": 1
+		},
+		{
+			"id": "change_phase",
+			"position": [
+				250.0,
+				850.0
+			],
+			"properties": {
+				"radius": 32.0
+			},
+			"rotation": 0.0,
+			"type": "phase_switch",
+			"type_version": 1
+		},
+		{
+			"id": "goal",
+			"position": [
+				550.0,
+				430.0
+			],
+			"properties": {},
+			"rotation": 0.0,
+			"type": "goal",
+			"type_version": 1
+		},
+		{
+			"id": "walls_top",
+			"position": [
+				360.0,
+				354.0
+			],
+			"properties": {
+				"size": [
+					720.0,
+					20.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_bottom",
+			"position": [
+				360.0,
+				1054.0
+			],
+			"properties": {
+				"size": [
+					720.0,
+					20.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_left",
+			"position": [
+				14.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					20.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_right",
+			"position": [
+				706.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					20.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_divider_top",
+			"position": [
+				360.0,
+				580.0
+			],
+			"properties": {
+				"size": [
+					24.0,
+					480.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_divider_bottom",
+			"position": [
+				360.0,
+				1024.0
+			],
+			"properties": {
+				"size": [
+					24.0,
+					88.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "plates_memory_plate",
+			"position": [
+				150.0,
+				450.0
+			],
+			"properties": {
+				"plate_role": 0
+			},
+			"rotation": 0.0,
+			"type": "plate",
+			"type_version": 1
+		}
+	],
+	"required_mechanics": {
+		"door": 1,
+		"goal": 1,
+		"phase_switch": 1,
+		"phase_wall": 1,
+		"plate": 1,
+		"wall": 1
+	},
+	"revision": 1,
+	"schema": 2,
+	"spawn": [
+		150.0,
+		980.0
+	],
+	"title": "PHASE COURIER",
+	"world": [
+		0.0,
+		0.0,
+		720.0,
+		1280.0
+	]
+}

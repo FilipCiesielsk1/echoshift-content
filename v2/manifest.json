@@ -22,6 +22,28 @@
 			"sha256": "0af0607d9fb66b4e68ee01ba3e98695e5e408c8b9600303937753c92957fbd77",
 			"size": 3761,
 			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/test/remote_v2_test_01.v1.r1.json"
+		},
+		{
+			"collection": "android_v2",
+			"content_version": 1,
+			"id": "remote_v2_test_02",
+			"level_schema": 2,
+			"min_client": 2,
+			"mode": "test",
+			"number": 2,
+			"release_utc": "2000-01-01T00:00:00Z",
+			"required_mechanics": {
+				"door": 1,
+				"goal": 1,
+				"phase_switch": 1,
+				"phase_wall": 1,
+				"plate": 1,
+				"wall": 1
+			},
+			"revision": 1,
+			"sha256": "bfeeafe0fda0a941171d178445f2ff0262417e0ccc79fe440dcc00212da632bd",
+			"size": 2951,
+			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/test/remote_v2_test_02.v1.r1.json"
 		}
 	],
 	"schema": 1
