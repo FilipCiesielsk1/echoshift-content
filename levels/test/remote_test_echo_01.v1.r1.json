@@ -1,0 +1,130 @@
+{
+	"bounds": [
+		0.0,
+		340.0,
+		720.0,
+		728.0
+	],
+	"content_version": 1,
+	"echo_target": 1,
+	"id": "remote_test_echo_01",
+	"links": [
+		{
+			"from": "plates_plate_a",
+			"to": "door"
+		}
+	],
+	"objects": [
+		{
+			"id": "door",
+			"length": 180.0,
+			"orientation": "vertical",
+			"position": [
+				360.0,
+				720.0
+			],
+			"type": "door"
+		},
+		{
+			"id": "goal",
+			"position": [
+				550.0,
+				420.0
+			],
+			"type": "goal"
+		},
+		{
+			"id": "walls_wall_1",
+			"position": [
+				360.0,
+				354.0
+			],
+			"size": [
+				720.0,
+				20.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_wall_2",
+			"position": [
+				360.0,
+				1054.0
+			],
+			"size": [
+				720.0,
+				20.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_wall_3",
+			"position": [
+				14.0,
+				704.0
+			],
+			"size": [
+				20.0,
+				728.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_wall_4",
+			"position": [
+				706.0,
+				704.0
+			],
+			"size": [
+				20.0,
+				728.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_wall_5",
+			"position": [
+				360.0,
+				485.0
+			],
+			"size": [
+				24.0,
+				290.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_wall_6",
+			"position": [
+				360.0,
+				939.0
+			],
+			"size": [
+				24.0,
+				258.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "plates_plate_a",
+			"position": [
+				150.0,
+				490.0
+			],
+			"type": "plate"
+		}
+	],
+	"revision": 1,
+	"schema": 1,
+	"spawn": [
+		150.0,
+		980.0
+	],
+	"title": "FIRST ECHO / Remote reference",
+	"world": [
+		0.0,
+		0.0,
+		720.0,
+		1280.0
+	]
+}
