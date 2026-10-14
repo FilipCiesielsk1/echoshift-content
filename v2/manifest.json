@@ -2,8 +2,53 @@
 	"levels": [
 		{
 			"collection": "android_v2",
-			"content_version": 1,
+			"content_version": 1.0,
 			"id": "remote_v2_test_01",
+			"level_schema": 2.0,
+			"min_client": 2.0,
+			"mode": "test",
+			"number": 1.0,
+			"release_utc": "2000-01-01T00:00:00Z",
+			"required_mechanics": {
+				"door": 1.0,
+				"goal": 1.0,
+				"laser": 1.0,
+				"plate": 1.0,
+				"portal": 1.0,
+				"timed_switch": 1.0,
+				"wall": 1.0
+			},
+			"revision": 1.0,
+			"sha256": "0af0607d9fb66b4e68ee01ba3e98695e5e408c8b9600303937753c92957fbd77",
+			"size": 3761.0,
+			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/test/remote_v2_test_01.v1.r1.json"
+		},
+		{
+			"collection": "android_v2",
+			"content_version": 1.0,
+			"id": "remote_v2_test_02",
+			"level_schema": 2.0,
+			"min_client": 2.0,
+			"mode": "test",
+			"number": 2.0,
+			"release_utc": "2000-01-01T00:00:00Z",
+			"required_mechanics": {
+				"door": 1.0,
+				"goal": 1.0,
+				"phase_switch": 1.0,
+				"phase_wall": 1.0,
+				"plate": 1.0,
+				"wall": 1.0
+			},
+			"revision": 1.0,
+			"sha256": "bfeeafe0fda0a941171d178445f2ff0262417e0ccc79fe440dcc00212da632bd",
+			"size": 2951.0,
+			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/test/remote_v2_test_02.v1.r1.json"
+		},
+		{
+			"collection": "workshop_examples",
+			"content_version": 1,
+			"id": "remote_workshop_parallel_memory",
 			"level_schema": 2,
 			"min_client": 2,
 			"mode": "test",
@@ -12,39 +57,14 @@
 			"required_mechanics": {
 				"door": 1,
 				"goal": 1,
-				"laser": 1,
-				"plate": 1,
-				"portal": 1,
-				"timed_switch": 1,
-				"wall": 1
-			},
-			"revision": 1,
-			"sha256": "0af0607d9fb66b4e68ee01ba3e98695e5e408c8b9600303937753c92957fbd77",
-			"size": 3761,
-			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/test/remote_v2_test_01.v1.r1.json"
-		},
-		{
-			"collection": "android_v2",
-			"content_version": 1,
-			"id": "remote_v2_test_02",
-			"level_schema": 2,
-			"min_client": 2,
-			"mode": "test",
-			"number": 2,
-			"release_utc": "2000-01-01T00:00:00Z",
-			"required_mechanics": {
-				"door": 1,
-				"goal": 1,
-				"phase_switch": 1,
-				"phase_wall": 1,
 				"plate": 1,
 				"wall": 1
 			},
 			"revision": 1,
-			"sha256": "bfeeafe0fda0a941171d178445f2ff0262417e0ccc79fe440dcc00212da632bd",
-			"size": 2951,
-			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/test/remote_v2_test_02.v1.r1.json"
+			"sha256": "1bf44db4d6adc14a029cfd5ebdf3d3e7af905b4d502a5487baab02f3856ef6e7",
+			"size": 2301,
+			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/test/remote_workshop_parallel_memory.v1.r1.json"
 		}
 	],
-	"schema": 1
+	"schema": 1.0
 }
