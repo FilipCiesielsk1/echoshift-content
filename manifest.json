@@ -2,17 +2,31 @@
 	"levels": [
 		{
 			"collection": "reference",
-			"content_version": 1,
+			"content_version": 1.0,
 			"id": "remote_test_echo_01",
+			"level_schema": 1.0,
+			"min_client": 1.0,
+			"mode": "test",
+			"number": 1.0,
+			"release_utc": "2000-01-01T00:00:00Z",
+			"revision": 1.0,
+			"sha256": "d3e66e55babd3bc4fc6af83930bb0561bfcd65b4c94f802fd501237480f627b5",
+			"size": 1499.0,
+			"url": "https://filipciesielsk1.github.io/echoshift-content/levels/test/remote_test_echo_01.v1.r1.json"
+		},
+		{
+			"collection": "reference",
+			"content_version": 1,
+			"id": "remote_test_echo_02",
 			"level_schema": 1,
 			"min_client": 1,
 			"mode": "test",
-			"number": 1,
+			"number": 2,
 			"release_utc": "2000-01-01T00:00:00Z",
 			"revision": 1,
-			"sha256": "d3e66e55babd3bc4fc6af83930bb0561bfcd65b4c94f802fd501237480f627b5",
-			"size": 1499,
-			"url": "https://filipciesielsk1.github.io/echoshift-content/levels/test/remote_test_echo_01.v1.r1.json"
+			"sha256": "330695c91d82da9ad2e9733838445ae34a8c60827be1cf439cbf1e1d7d147590",
+			"size": 2166,
+			"url": "https://filipciesielsk1.github.io/echoshift-content/levels/test/remote_test_echo_02.v1.r1.json"
 		}
 	],
 	"schema": 1.0

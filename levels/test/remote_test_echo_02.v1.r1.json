@@ -1,0 +1,180 @@
+{
+	"bounds": [
+		0.0,
+		340.0,
+		720.0,
+		728.0
+	],
+	"content_version": 1,
+	"echo_target": 2,
+	"id": "remote_test_echo_02",
+	"links": [
+		{
+			"from": "plates_access_plate",
+			"to": "access_door"
+		},
+		{
+			"from": "plates_access_plate",
+			"to": "exit_door"
+		},
+		{
+			"from": "plates_relay_plate",
+			"to": "exit_door"
+		}
+	],
+	"objects": [
+		{
+			"id": "access_door",
+			"length": 160.0,
+			"orientation": "vertical",
+			"position": [
+				360.0,
+				900.0
+			],
+			"type": "door"
+		},
+		{
+			"id": "exit_door",
+			"length": 140.0,
+			"orientation": "horizontal",
+			"position": [
+				540.0,
+				700.0
+			],
+			"type": "door"
+		},
+		{
+			"id": "goal",
+			"position": [
+				550.0,
+				430.0
+			],
+			"type": "goal"
+		},
+		{
+			"id": "walls_top",
+			"position": [
+				360.0,
+				354.0
+			],
+			"size": [
+				720.0,
+				20.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_bottom",
+			"position": [
+				360.0,
+				1054.0
+			],
+			"size": [
+				720.0,
+				20.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_left",
+			"position": [
+				14.0,
+				704.0
+			],
+			"size": [
+				20.0,
+				728.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_right",
+			"position": [
+				706.0,
+				704.0
+			],
+			"size": [
+				20.0,
+				728.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_divider_top",
+			"position": [
+				360.0,
+				580.0
+			],
+			"size": [
+				24.0,
+				480.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_divider_bottom",
+			"position": [
+				360.0,
+				1024.0
+			],
+			"size": [
+				24.0,
+				88.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_exit_left",
+			"position": [
+				421.0,
+				700.0
+			],
+			"size": [
+				98.0,
+				24.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "walls_exit_right",
+			"position": [
+				653.0,
+				700.0
+			],
+			"size": [
+				86.0,
+				24.0
+			],
+			"type": "wall"
+		},
+		{
+			"id": "plates_access_plate",
+			"position": [
+				150.0,
+				760.0
+			],
+			"type": "plate"
+		},
+		{
+			"id": "plates_relay_plate",
+			"position": [
+				550.0,
+				1000.0
+			],
+			"type": "plate"
+		}
+	],
+	"revision": 1,
+	"schema": 1,
+	"spawn": [
+		150.0,
+		980.0
+	],
+	"title": "CHAIN OF TRUST",
+	"world": [
+		0.0,
+		0.0,
+		720.0,
+		1280.0
+	]
+}
