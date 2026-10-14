@@ -1,0 +1,141 @@
+{
+	"bounds": [
+		0.0,
+		340.0,
+		720.0,
+		728.0
+	],
+	"content_version": 1,
+	"echo_target": 1,
+	"id": "remote_workshop_16e4f6249e94d326",
+	"initial_phase": 0,
+	"links": [
+		{
+			"from": "obj_f628d4923ed1",
+			"to": "obj_92cfa824af1f"
+		}
+	],
+	"objects": [
+		{
+			"id": "obj_2f1cf3f81bf2",
+			"position": [
+				550.0,
+				430.0
+			],
+			"properties": {},
+			"rotation": 0.0,
+			"type": "goal",
+			"type_version": 1
+		},
+		{
+			"id": "obj_92cfa824af1f",
+			"position": [
+				360.0,
+				704.0
+			],
+			"properties": {
+				"length": 693.0,
+				"orientation": "horizontal"
+			},
+			"rotation": 1.57079637050629,
+			"type": "door",
+			"type_version": 1
+		},
+		{
+			"id": "obj_053a5807a553",
+			"position": [
+				360.0,
+				354.0
+			],
+			"properties": {
+				"size": [
+					720.0,
+					20.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "obj_5f44c69e6bd0",
+			"position": [
+				360.0,
+				1054.0
+			],
+			"properties": {
+				"size": [
+					720.0,
+					20.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "obj_a28ae8e8e43b",
+			"position": [
+				14.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					20.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "obj_73c38b0d1a23",
+			"position": [
+				706.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					20.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "obj_f628d4923ed1",
+			"position": [
+				437.0,
+				881.0
+			],
+			"properties": {
+				"plate_role": 0
+			},
+			"rotation": 0.0,
+			"type": "plate",
+			"type_version": 1
+		}
+	],
+	"required_mechanics": {
+		"door": 1,
+		"goal": 1,
+		"plate": 1,
+		"wall": 1
+	},
+	"revision": 1,
+	"schema": 2,
+	"spawn": [
+		150.0,
+		980.0
+	],
+	"title": "FIRST TRANSMISSION",
+	"world": [
+		0.0,
+		0.0,
+		720.0,
+		1280.0
+	]
+}
