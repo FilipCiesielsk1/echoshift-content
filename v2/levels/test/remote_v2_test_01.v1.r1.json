@@ -1,0 +1,274 @@
+{
+	"bounds": [
+		0.0,
+		340.0,
+		720.0,
+		728.0
+	],
+	"content_version": 1,
+	"echo_target": 1,
+	"id": "remote_v2_test_01",
+	"initial_phase": 0,
+	"links": [
+		{
+			"from": "exit_clock",
+			"to": "exit_door"
+		},
+		{
+			"from": "plates_carrier_plate",
+			"to": "portals_entry"
+		},
+		{
+			"from": "plates_carrier_plate",
+			"to": "portals_arrival"
+		},
+		{
+			"from": "plates_carrier_plate",
+			"to": "lasers_barrier"
+		}
+	],
+	"objects": [
+		{
+			"id": "exit_clock",
+			"position": [
+				550.0,
+				880.0
+			],
+			"properties": {
+				"duration": 8.0,
+				"rearm_on_reset": true
+			},
+			"rotation": 0.0,
+			"type": "timed_switch",
+			"type_version": 1
+		},
+		{
+			"id": "exit_door",
+			"position": [
+				540.0,
+				650.0
+			],
+			"properties": {
+				"length": 140.0,
+				"orientation": "horizontal"
+			},
+			"rotation": 1.57079637050629,
+			"type": "door",
+			"type_version": 1
+		},
+		{
+			"id": "goal",
+			"position": [
+				550.0,
+				430.0
+			],
+			"properties": {},
+			"rotation": 0.0,
+			"type": "goal",
+			"type_version": 1
+		},
+		{
+			"id": "walls_top",
+			"position": [
+				360.0,
+				354.0
+			],
+			"properties": {
+				"size": [
+					720.0,
+					20.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_bottom",
+			"position": [
+				360.0,
+				1054.0
+			],
+			"properties": {
+				"size": [
+					720.0,
+					20.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_left",
+			"position": [
+				14.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					20.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_right",
+			"position": [
+				706.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					20.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_divider",
+			"position": [
+				360.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					24.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_exit_left",
+			"position": [
+				421.0,
+				650.0
+			],
+			"properties": {
+				"size": [
+					98.0,
+					24.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "walls_exit_right",
+			"position": [
+				653.0,
+				650.0
+			],
+			"properties": {
+				"size": [
+					86.0,
+					24.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "plates_carrier_plate",
+			"position": [
+				150.0,
+				500.0
+			],
+			"properties": {
+				"plate_role": 1
+			},
+			"rotation": 0.0,
+			"type": "plate",
+			"type_version": 1
+		},
+		{
+			"id": "portals_entry",
+			"position": [
+				150.0,
+				850.0
+			],
+			"properties": {
+				"enabled": false,
+				"endpoint_id": "entry",
+				"exit_offset": [
+					0.0,
+					0.0
+				],
+				"pair_id": "carrier",
+				"pattern": 0
+			},
+			"rotation": 0.0,
+			"type": "portal",
+			"type_version": 1
+		},
+		{
+			"id": "portals_arrival",
+			"position": [
+				550.0,
+				980.0
+			],
+			"properties": {
+				"enabled": false,
+				"endpoint_id": "arrival",
+				"exit_offset": [
+					0.0,
+					-60.0
+				],
+				"pair_id": "carrier",
+				"pattern": 0
+			},
+			"rotation": 0.0,
+			"type": "portal",
+			"type_version": 1
+		},
+		{
+			"id": "lasers_barrier",
+			"position": [
+				534.0,
+				780.0
+			],
+			"properties": {
+				"beam_size": [
+					324.0,
+					8.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "laser",
+			"type_version": 1
+		}
+	],
+	"required_mechanics": {
+		"door": 1,
+		"goal": 1,
+		"laser": 1,
+		"plate": 1,
+		"portal": 1,
+		"timed_switch": 1,
+		"wall": 1
+	},
+	"revision": 1,
+	"schema": 2,
+	"spawn": [
+		150.0,
+		980.0
+	],
+	"title": "CARRIER SIGNAL",
+	"world": [
+		0.0,
+		0.0,
+		720.0,
+		1280.0
+	]
+}
