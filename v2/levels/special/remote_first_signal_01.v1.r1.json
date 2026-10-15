@@ -1,0 +1,107 @@
+{
+	"bounds": [
+		0.0,
+		340.0,
+		720.0,
+		728.0
+	],
+	"content_version": 1,
+	"echo_target": 0,
+	"id": "remote_first_signal_01",
+	"initial_phase": 0,
+	"links": [],
+	"objects": [
+		{
+			"id": "obj_c4472d9dea4a",
+			"position": [
+				550.0,
+				430.0
+			],
+			"properties": {},
+			"rotation": 0.0,
+			"type": "goal",
+			"type_version": 1
+		},
+		{
+			"id": "obj_95034b480f34",
+			"position": [
+				360.0,
+				354.0
+			],
+			"properties": {
+				"size": [
+					720.0,
+					20.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "obj_5d1b8485ad20",
+			"position": [
+				360.0,
+				1054.0
+			],
+			"properties": {
+				"size": [
+					720.0,
+					20.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "obj_56fbb6db2268",
+			"position": [
+				14.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					20.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		},
+		{
+			"id": "obj_e8953d2ba420",
+			"position": [
+				706.0,
+				704.0
+			],
+			"properties": {
+				"size": [
+					20.0,
+					728.0
+				]
+			},
+			"rotation": 0.0,
+			"type": "wall",
+			"type_version": 1
+		}
+	],
+	"required_mechanics": {
+		"goal": 1,
+		"wall": 1
+	},
+	"revision": 1,
+	"schema": 2,
+	"spawn": [
+		150.0,
+		980.0
+	],
+	"title": "FIRST SIGNAL",
+	"world": [
+		0.0,
+		0.0,
+		720.0,
+		1280.0
+	]
+}

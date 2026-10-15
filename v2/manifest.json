@@ -87,8 +87,26 @@
 		},
 		{
 			"collection": "workshop_test",
-			"content_version": 1,
+			"content_version": 1.0,
 			"id": "remote_workshop_aae69ca60bc1dd31",
+			"level_schema": 2.0,
+			"min_client": 2.0,
+			"mode": "special",
+			"number": 1.0,
+			"release_utc": "",
+			"required_mechanics": {
+				"goal": 1.0,
+				"wall": 1.0
+			},
+			"revision": 1.0,
+			"sha256": "62377c23df08e27b149ee1d668d836652850a8bd43689a9e0ff42ba9e212b1c0",
+			"size": 1379.0,
+			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/special/remote_workshop_aae69ca60bc1dd31.v1.r1.json"
+		},
+		{
+			"collection": "first_signal",
+			"content_version": 1,
+			"id": "remote_first_signal_01",
 			"level_schema": 2,
 			"min_client": 2,
 			"mode": "special",
@@ -99,9 +117,9 @@
 				"wall": 1
 			},
 			"revision": 1,
-			"sha256": "62377c23df08e27b149ee1d668d836652850a8bd43689a9e0ff42ba9e212b1c0",
-			"size": 1379,
-			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/special/remote_workshop_aae69ca60bc1dd31.v1.r1.json"
+			"sha256": "c52e96dff2147f5bb86b275e6d1fd6223423898d49a96375323b2ded94980497",
+			"size": 1369,
+			"url": "https://filipciesielsk1.github.io/echoshift-content/v2/levels/special/remote_first_signal_01.v1.r1.json"
 		}
 	],
 	"schema": 1.0
